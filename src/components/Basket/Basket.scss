@@ -1,0 +1,28 @@
+.wrapper--basket {
+  position: fixed;
+  right: 50px;
+  display: flex;
+
+  .basket__content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    &:hover{
+        background-color: greenyellow;
+    }
+    &:active{
+      width: 110.2px;
+      height: 40.2px;
+      font-size: 13px;
+    }
+  }
+}

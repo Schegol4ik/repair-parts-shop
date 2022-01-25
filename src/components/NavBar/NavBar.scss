@@ -1,0 +1,10 @@
+.wrapper--navBar{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  span{
+    cursor: pointer;
+  }
+}

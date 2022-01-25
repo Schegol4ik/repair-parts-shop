@@ -1,0 +1,15 @@
+.wrapper--table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .table__content{
+    display: flex;
+    .column__table{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+  }
+
+}
